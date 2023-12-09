@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow and Go Cosmetic</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8de6300a87.js" crossorigin="anonymous"></script>
+</head>
+<body>                 
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="imgs/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#bundle">Bundle</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Check out">Check Out</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Glow and Go Cosmetic</h1>
+                <p>Unleash Your Inner Beauty</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="imgs/about.jpg">
+                </div>                    
+                <div class="about-col-2">
+                    <h1 class=""sub-title>About</h1>
+                    <br>
+                    <p>Glow and Go Cosmetic is your beauty destination, offering a curated selection of high-quality 
+                        and makeup products. Embrace your glow with our carefully crafted collection designed to 
+                        enhance your natural beauty.</p>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('We Ship Online')">We Ship Online</p>
+                        <p class="tab-links" onclick="opentab('Cancellation')">Cancellation</p>
+                        <p class="tab-links" onclick="opentab('Refund')">Refund</p>
+                    </div>
+                    <br>
+                    <div class="tab-contents active-tab" id="We Ship Online">
+                        <br>
+                        <ul>
+                            <i class="fas fa-shipping-fast"></i>
+                            <li>Embrace the convenience of beauty shopping right from your home within 
+                                Zamboanga City with Glow and Go Cosmetic. Our online store guarantees a smooth and dependable 
+                                delivery service, ensuring your preferred skincare and makeup products reach your doorstep promptly, 
+                                exclusively in Zamboanga City.</li>
+                                <br>
+                                <br>
+                                <i class="fas fa-palette"></i>
+                                <li>Experience the unparalleled convenience of online beauty shopping with Glow and Go Cosmetic as we 
+                                    introduce our Cash on Delivery (COD) service. Dive into our carefully curated collection of premium 
+                                    skincare and makeup products, and relish the flexibility of settling your payment upon delivery, 
+                                    exclusively available in Zamboanga City.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Cancellation">
+                        <br>
+                        <ul>
+                            <i class="fas fa-ban"></i>
+                            <li>We understand plans can change. If you need to cancel your order with Glow and Go Cosmetic, 
+                                our flexible cancellation process ensures a stress-free experience. Contact our support team, 
+                                and we'll guide you through the steps to make your beauty journey convenient and enjoyable.</li>
+                                <br>
+                           <li><strong>Cancellation Process</strong></li>
+                           <li>Contact Us Promptly:
+                            If you wish to cancel your order, contact our customer support team as soon as possible. Reach out via 
+                            email at customer_support@gmail.com or call us at 09366875115.<br><br>Provide Order Details:
+                            To expedite the cancellation process, provide relevant details such as your order number and the specific 
+                            product(s) you wish to cancel. This information helps us locate and process your request efficiently.
+                            <br><br>Guidance from Our Team: Our dedicated customer support team will assist you throughout the cancellation 
+                            process. They'll provide guidance on the necessary steps, answer any questions you may have, and ensure a smooth 
+                            experience.<br><br>Cancellation Confirmation: Once your cancellation request is received and processed, we'll confirm 
+                            the cancellation with you. You'll receive transparent communication regarding the status of your canceled order.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Refund">
+                        <br>
+                        <ul>
+                            <i class="fas fa-money-bill-alt"></i>
+                            <li>Your satisfaction is our priority at Glow and Go Cosmetic. Our refund policy is tailored to address 
+                                your concerns. In the event of any damages or if you're unsatisfied with your purchase, simply reach 
+                                out to us. We're here to guide you through a hassle-free refund process, ensuring your experience with 
+                                us is nothing short of exceptional.</li>
+                                <br>
+                            <li><strong>Refund Process</strong></li>
+                            <li>Contact Us:
+                                If you find yourself unsatisfied with your purchase, reach out to our customer support team. You can 
+                                contact us via email at customer_support@gmail.com or call us at 09366875115.<br><br>Provide Details:
+                                Share details about your order, including the order number and the specific product(s) you would like 
+                                to refund. This information will help us process your request efficiently.<br><br>Assistance and Guidance:
+                                Our dedicated customer support team will assist you through the entire refund process. They will guide you 
+                                on the necessary steps and address any queries you may have.<br><br>Refund Processing: Once we've received and 
+                                reviewed your request, we'll initiate the refund process. You can expect transparent communication regarding 
+                                the status of your refund.<br><br>Receive Your Refund: Upon completion of the refund process, the refunded amount 
+                                will be credited back to your original payment method. The timing of the refund may vary depending on your financial 
+                                institution.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<!-- ----------bundle---------- -->       
+<div id="bundle">
+    <div class="container">
+        <h1 class="sub-title">Bundle</h1>
+            <div class="work-list">
+              <div class="work">
+               <img src="imgs/bundle1.jpg">
+               <div class="layer">
+               <h3>Bundle 1</h3>
+                <a href="https://www.facebook.com/61554143065931/posts/pfbid0NZHQ2ujsP7bXL67dYWKS6vbigVonjifs6orgr918BjzsY9NHdi8nxfYFYDKe3zLHl/?app=fbl"><i class="fas fa-heart"></i></a>
+        </div>
+    </div>
+    <div class="work">
+        <img src="imgs/bundle2.jpg">
+        <div class="layer">
+            <h3>Bundle 2</h3>
+                <a href="https://www.facebook.com/61554143065931/posts/pfbid0NZHQ2ujsP7bXL67dYWKS6vbigVonjifs6orgr918BjzsY9NHdi8nxfYFYDKe3zLHl/?app=fbl"><i class="fas fa-heart"></i></a>
+        </div>
+    </div>
+    <div class="work">
+        <img src="imgs/bundle3.jpg">
+        <div class="layer">
+            <h3>Bundle 3</h3>
+            <a href="https://www.facebook.com/61554143065931/posts/pfbid0NZHQ2ujsP7bXL67dYWKS6vbigVonjifs6orgr918BjzsY9NHdi8nxfYFYDKe3zLHl/?app=fbl"><i class="fas fa-heart"></i></a>
+        </div>
+    </div>
+</div>
+<br><br><br>
+<a href="#services" class="btn">See More Products</a>
+</div>
+</div>
+<!-- ----------services---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+                <div class="work-list">
+                  <div class="work">
+                   <img src="imgs/lipsticks1.jpg">
+                   <div class="layer">
+                    <h3>Lipstick & Gloss Collection</h3>
+                <p>Elevate your lips with our velvety lipsticks and perfect your pout with luscious glosses. Our carefully curated 
+                 collection offers a range of shades to suit every style.</p>
+                   <a href="https://www.facebook.com/61554143065931/posts/pfbid02w6ekCCAp2vLE342jNj86gmbAuHZkjnpN56pymtMgHLb7TC3kzjfvfLsQKVFoQwhhl/?app=fbl"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="imgs/pallettes2.jpg">
+            <div class="layer">
+                <h3>Eyeshadow Palettes</h3>
+                <p>Create stunning eye looks with our diverse range of eyeshadow palettes. From vibrant hues to subtle neutrals, 
+                    our palettes are designed for every makeup enthusiast.</p>
+                <a href="https://www.facebook.com/61554143065931/posts/pfbid02bB6ijmKUxKgDw41JdyKfzpNFcdH4QTmkfg9LC82gemTsk2bGh8Yhnm8HicZn34KBl/?app=fbl"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="imgs/brushes3.jpg">
+            <div class="layer">
+                <h3>High-Quality Makeup Brushes</h3>
+                <p>Experience flawless application with our high-quality makeup brushes. Designed for precision and durability, 
+                    our brushes enhance your makeup routine, ensuring a professional finish.</p>
+                <a href="https://www.facebook.com/61554143065931/posts/pfbid0nQsCnWUctziXjUUje4A9mo9JSwB6HkWvZ5pPpN1J73UNEYxb38NZ6YcvqpoNFRJal/?app=fbl"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#Check out" class="btn">Click this to Avail</a> 
+</div>
+</div>
+<!-- ----------Check out---------- -->
+<div id="Check out">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Check Out Now!</h1>
+                <p><strong>To avail, visit our Facebook page; just click on the Facebook icon.</strong></p>
+                <p><strong>To get a 10% discount, just fill up and submit the form.</strong></p>
+                <p><i class="fas fa-paper-plane"></i>customer_support@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>09366875115</p>
+                <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=61554143065931"><i class="fab fa-facebook"></i></a>
+                <br><br><br>
+            </div>
+        </div>
+        <div class="contact-rigth">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Name" required>
+                <input type="email" name="Email" placeholder="Email" required>
+                <textarea name="Message" rows="6" placeholder="Message Us   "></textarea>
+                <br><br>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright 2023<i class="fas fa-smile"></i>Glow and Go Cosmetic. All rights reserved.</p>
+</div>
+</div>  
+
+    <script>
+        
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzNtOndwRUfFdfu4OXxNLI3wnQU5TblY44TCOMVBlezzruIVVkPLx--3Rh88CqP7cI9/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Information sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+</body>
+</html>
